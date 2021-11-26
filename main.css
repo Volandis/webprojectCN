@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap');
+
+a {
+    color:inherit;
+    text-decoration: none;
+ }
+ 
+body {
+    background-image: url(images/background.jpg);
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+h1, h2 {
+    padding: 5px;
+    text-align: center;
+    color: #d4d4d8;
+    font-size:xx-large;
+}
+
+.container {
+    display: flex;
+    min-height: 70vh;
+    min-width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1000px;
+    margin:auto
+}
+
+.container_social {
+    display: flex;
+    min-height: 10vh;
+    min-width: 50%;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    margin:auto
+}
+
+.container_album {
+    display: flex;
+    min-height: 5vh;
+    min-width: 50%;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-around;
+    width: 250px;
+    margin:auto
+}
+
+#main_logo {
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: auto;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    height: 400px;
+    width: auto;
+}
+
+.center_social {
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: auto;
+}
+
+.center_album {
+    display: block;
+    margin: auto;
+    height: 250px;
+    width: auto;
+}
+
+.section {
+    text-align: center;
+}
+
+#title {
+    padding: 10px;
+    text-align: center;
+    color: #C0C0C0;
+}
+
+#navbar {
+    background-image: linear-gradient(to right, #2e2e30 0%, #575656  80%, #a7a7a8  100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    border:3px solid black;
+    box-shadow: 0 0 20px rgba(192,192,192, 0.7);    
+}
+
+button {
+    background-image: linear-gradient(to right, #27272B 0%, #C0C0C0  70%, #d4d4d8  100%);
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    background-size: 200% auto;
+    color: black;            
+    box-shadow: 0 0 20px rgba(29, 29, 29, 0.9);
+    border-radius: 10px;
+    display: flex;
+    border:2px solid black;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: x-large;
+}
+
+.section_block1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #C0C0C0;
+    padding: 10px;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-left: 5px;
+    border-right: 5px;
+    border-style: solid;
+    border-color: black;
+    
+}
