@@ -19,62 +19,50 @@ h1, h2 {
 
 .container {
     display: flex;
-    min-height: 70vh;
+    min-height: auto;
     min-width: 50%;
+    max-width: 900px;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    width: 1000px;
     margin:auto
 }
 
 .container_social {
     display: flex;
-    min-height: 10vh;
-    min-width: 50%;
+    max-height: 80px;
+    max-width: 1000px;
     flex-direction:row;
     align-items: center;
-    justify-content: space-evenly;
-    width: 200px;
+    justify-content:space-between;
     margin:auto
 }
 
 .container_album {
-    display: flex;
-    min-height: 5vh;
-    min-width: 50%;
-    flex-direction:row;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-width: 80%;
     align-items: center;
     justify-content:space-around;
-    width: 250px;
+    width: 400px;
     margin:auto
-}
-
-#main_logo {
-    display: block;
-    margin: auto;
-    height: 200px;
-    width: auto;
 }
 
 .center {
     display: block;
     margin: auto;
-    height: 400px;
     width: auto;
 }
 
 .center_social {
     display: block;
     margin: auto;
-    height: 100px;
-    width: auto;
+    justify-content: center;
 }
 
 .center_album {
     display: block;
     margin: auto;
-    height: 250px;
     width: auto;
 }
 
@@ -125,3 +113,5 @@ button {
     border-color: black;
     
 }
+
+img {max-width:100%;}
